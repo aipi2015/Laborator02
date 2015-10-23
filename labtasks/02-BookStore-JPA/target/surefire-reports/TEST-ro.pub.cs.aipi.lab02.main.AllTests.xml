@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="18" name="ro.pub.cs.aipi.lab02.main.AllTests" time="0.06" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\1.8.0_60_x64\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Personal\aipi2015\laboratoare\laborator02\cod_sursa\nerezolvate\eclipse\02-BookStore-JPA"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="test" value="ro.pub.cs.aipi.lab02.main.AllTests"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Personal\aipi2015\laboratoare\laborator02\cod_sursa\nerezolvate\eclipse\02-BookStore-JPA"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\1.8.0_60_x64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Andrei.R\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Andrei.R\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7139627171232276842.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\1.8.0_60_x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Java/1.8.0_45_x64/bin/../jre/bin/server;C:/Java/1.8.0_45_x64/bin/../jre/bin;C:/Java/1.8.0_45_x64/bin/../jre/lib/amd64;c:\oracle\product\11.2.0\client_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\;C:\Java\1.8.0_45_x64\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;D:\Applications\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Andrei.R"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Andrei.R"/>
+    <property name="java.class.path" value="/D:/Applications/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\1.8.0_60_x64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ro.pub.cs.aipi.lab02.main.AllTests -B clean compile test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Java\1.8.0_60_x64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\1.8.0_60_x64\jre\lib\resources.jar;C:\Java\1.8.0_60_x64\jre\lib\rt.jar;C:\Java\1.8.0_60_x64\jre\lib\sunrsasign.jar;C:\Java\1.8.0_60_x64\jre\lib\jsse.jar;C:\Java\1.8.0_60_x64\jre\lib\jce.jar;C:\Java\1.8.0_60_x64\jre\lib\charsets.jar;C:\Java\1.8.0_60_x64\jre\lib\jfr.jar;C:\Java\1.8.0_60_x64\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Personal\aipi2015\laboratoare\laborator02\cod_sursa\nerezolvate\eclipse\02-BookStore-JPA\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[0]" time="0.007">
+    <failure message="Table BookPresentation should have 7028 records! expected:&lt;7028&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table BookPresentation should have 7028 records! expected:&lt;7028&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>started cleaning...
+finished cleaning...
+Test01 -SELECT- checkNumberOfRecords - parameter: BookPresentation
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[1]" time="0">
+    <failure message="Table Category should have 156 records! expected:&lt;156&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table Category should have 156 records! expected:&lt;156&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: Category
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[2]" time="0.001">
+    <failure message="Table User should have 2000 records! expected:&lt;2000&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table User should have 2000 records! expected:&lt;2000&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: User
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[3]" time="0">
+    <failure message="Table InvoiceLine should have 11076 records! expected:&lt;11076&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table InvoiceLine should have 11076 records! expected:&lt;11076&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: InvoiceLine
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[4]" time="0">
+    <failure message="Table SupplyOrderLine should have 11124 records! expected:&lt;11124&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table SupplyOrderLine should have 11124 records! expected:&lt;11124&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: SupplyOrderLine
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[5]" time="0">
+    <failure message="Table Format should have 30 records! expected:&lt;30&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table Format should have 30 records! expected:&lt;30&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: Format
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[6]" time="0.001">
+    <failure message="Table InvoiceHeader should have 2000 records! expected:&lt;2000&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table InvoiceHeader should have 2000 records! expected:&lt;2000&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: InvoiceHeader
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[7]" time="0.001">
+    <failure message="Table Language should have 185 records! expected:&lt;185&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table Language should have 185 records! expected:&lt;185&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: Language
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[8]" time="0.001">
+    <failure message="Table Book should have 2382 records! expected:&lt;2382&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table Book should have 2382 records! expected:&lt;2382&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: Book
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[9]" time="0.001">
+    <failure message="Table SupplyOrderHeader should have 2000 records! expected:&lt;2000&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table SupplyOrderHeader should have 2000 records! expected:&lt;2000&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: SupplyOrderHeader
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[10]" time="0.001">
+    <failure message="Table Collection should have 160 records! expected:&lt;160&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table Collection should have 160 records! expected:&lt;160&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: Collection
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[11]" time="0.001">
+    <failure message="Table Country should have 240 records! expected:&lt;240&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table Country should have 240 records! expected:&lt;240&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: Country
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[12]" time="0.001">
+    <failure message="Table PublishingHouse should have 547 records! expected:&lt;547&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table PublishingHouse should have 547 records! expected:&lt;547&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: PublishingHouse
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise01Test" name="checkNumberOfRecords[13]" time="0.003">
+    <failure message="Table Writer should have 2586 records! expected:&lt;2586&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Table Writer should have 2586 records! expected:&lt;2586&gt; but was:&lt;-1&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at org.junit.Assert.assertEquals(Assert.java:323)
+	at ro.pub.cs.aipi.lab02.main.Exercise01Test.checkNumberOfRecords(Exercise01Test.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.runners.Parameterized$TestClassRunnerForParameters.run(Parameterized.java:98)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Parameterized.access$000(Parameterized.java:55)
+	at org.junit.runners.Parameterized$1.run(Parameterized.java:131)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Parameterized.run(Parameterized.java:129)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test01 -SELECT- checkNumberOfRecords - parameter: Writer
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise02Test" name="checkFileContent" time="0.004">
+    <failure message="Files do not match at line 1
+found: nullinstead of: 1	Consuming Ocean Island	Dora APEL	My Best Series Books	XoXo Publishing a Ninni Group Inc	3	1957	Russia expected:&lt;null&gt; but was:&lt;1	Consuming Ocean Island	Dora APEL	My Best Series Books	XoXo Publishing a Ninni Group Inc	3	1957	Russia&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Files do not match at line 1
+found: nullinstead of: 1	Consuming Ocean Island	Dora APEL	My Best Series Books	XoXo Publishing a Ninni Group Inc	3	1957	Russia expected:&lt;null&gt; but was:&lt;1	Consuming Ocean Island	Dora APEL	My Best Series Books	XoXo Publishing a Ninni Group Inc	3	1957	Russia&gt;
+	at org.junit.Assert.fail(Assert.java:74)
+	at org.junit.Assert.failNotEquals(Assert.java:448)
+	at org.junit.Assert.assertEquals(Assert.java:102)
+	at ro.pub.cs.aipi.lab02.main.AllTests.fileComparison(AllTests.java:109)
+	at ro.pub.cs.aipi.lab02.main.Exercise02Test.checkFileContent(Exercise02Test.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:44)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test02 -SELECT- checkFileContent
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise03Test" name="ro.pub.cs.aipi.lab02.main.Exercise03Test" time="0.011">
+    <failure message="The record was not inserted!" type="java.lang.AssertionError">java.lang.AssertionError: The record was not inserted!
+	at org.junit.Assert.fail(Assert.java:74)
+	at ro.pub.cs.aipi.lab02.main.Exercise03Test.executeExercise03(Exercise03Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.ClassRoadie.runBefores(ClassRoadie.java:49)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:36)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise04Test" name="ro.pub.cs.aipi.lab02.main.Exercise04Test" time="0.013">
+    <failure message="The records were not updated! 0" type="java.lang.AssertionError">java.lang.AssertionError: The records were not updated! 0
+	at org.junit.Assert.fail(Assert.java:74)
+	at ro.pub.cs.aipi.lab02.main.Exercise04Test.executeExercise04(Exercise04Test.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.ClassRoadie.runBefores(ClassRoadie.java:49)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:36)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test04 -UPDATE- checkNumberOfRecords
+</system-out>
+  </testcase>
+  <testcase classname="ro.pub.cs.aipi.lab02.main.Exercise05Test" name="ro.pub.cs.aipi.lab02.main.Exercise05Test" time="0.014">
+    <failure message="The records were not deleted! -1" type="java.lang.AssertionError">java.lang.AssertionError: The records were not deleted! -1
+	at org.junit.Assert.fail(Assert.java:74)
+	at ro.pub.cs.aipi.lab02.main.Exercise05Test.executeExercise05(Exercise05Test.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.ClassRoadie.runBefores(ClassRoadie.java:49)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:36)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)
+	at org.junit.internal.runners.CompositeRunner.runChildren(CompositeRunner.java:33)
+	at org.junit.runners.Suite.access$000(Suite.java:26)
+	at org.junit.runners.Suite$1.run(Suite.java:93)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.runners.Suite.run(Suite.java:91)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>Test05 -DELETE- checkNumberOfRecords
+</system-out>
+  </testcase>
+</testsuite>
