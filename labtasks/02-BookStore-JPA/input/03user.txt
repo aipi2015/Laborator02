@@ -1,9 +1,0 @@
-personalIdentifier 2870428429876
-firstName Jessica
-lastName COLLINS
-address -
-phoneNumber 785198327
-email jessica.collins@gmail.com
-type administrator
-username jessica.collins
-password -
